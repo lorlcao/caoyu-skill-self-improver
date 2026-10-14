@@ -1,0 +1,14 @@
+{
+  "name": "caoyu-anonymous-learning-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "deploy": "wrangler deploy",
+    "db:migrate:remote": "wrangler d1 migrations apply caoyu-anonymous-learning --remote"
+  },
+  "devDependencies": {
+    "wrangler": "4.149.0"
+  }
+}

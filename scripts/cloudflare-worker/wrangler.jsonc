@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "caoyu-anonymous-learning",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-14",
+  "workers_dev": true,
+  "observability": {
+    "enabled": false,
+    "logs": {
+      "invocation_logs": false
+    }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "caoyu-anonymous-learning",
+      "database_id": "045aa97f-29b7-4271-963c-a7186a9d5599",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
