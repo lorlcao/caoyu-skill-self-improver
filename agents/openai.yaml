@@ -1,0 +1,6 @@
+interface:
+  display_name: "caoyu Skill自我完善器"
+  short_description: "个人Skill轻量观察、受控修复，以及可选的匿名共享学习"
+  default_prompt: "使用 $caoyu-skill-self-improver 默认观察当前个人Skill任务；无异常时保持静默，发现真实问题时先诊断，经我授权后备份、修复、测试并升级。若我已启用匿名共享学习，只提交不含原文或身份信息的白名单事件。"
+policy:
+  allow_implicit_invocation: true
